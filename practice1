@@ -1,0 +1,44 @@
+using System;
+
+namespace patika1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string deger1 = null;
+            Console.WriteLine(deger1);
+
+            int sayimiz  = 10;
+            int degisken2 = 7;
+            Console.WriteLine(sayimiz+degisken2);
+
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Lütfen isminizi giriniz.");
+            string name = Console.ReadLine();
+            Console.WriteLine("Lütfen soyisminizi giriniz.");
+            string surname = Console.ReadLine();
+
+            Console.WriteLine("Hoşgeldin," + " "+name+" "+ surname);
+            //Adamın siteye git
+            DateTime d1 = DateTime.Now;
+            Console.WriteLine(d1);
+
+            string dateTime = DateTime.Now.ToString("dd.MM.yyyy");
+            Console.WriteLine(dateTime);
+
+            string degisken = " ";
+            if (degisken == " ") {
+                Console.WriteLine("True");
+            }
+
+            byte b = 5;
+            sbyte c = 5;
+
+            short s = 5;
+            
+
+
+        }
+    }
+}
