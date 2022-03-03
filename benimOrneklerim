@@ -1,0 +1,22 @@
+//1. Kullanıcının girdiği metni 10 kez yazdıran program:
+Console.Write("Metni Gir:");
+string metin = Console.ReadLine();
+for (int i = 1; i <= 10; i++)
+{
+Console.WriteLine(metin);
+}
+Console.ReadKey();
+
+
+//2. Kullanıcının girdiği metni kullanıcının girdiği sayı kadar ekrana yazdıran program:
+string metin;
+int deger;
+Console.WriteLine("Metni Gir:");
+metin=Console.ReadLine();
+Console.WriteLine("Yazıyı kaç kere yazdıracaksan sayı Gir:");
+deger=Convert.ToInt32(Console.ReadLine());
+for  ( int i=1; i<=deger;  i++)
+{
+Console.WriteLine(metin);
+}
+Console.ReadKey();
